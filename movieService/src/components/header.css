@@ -1,0 +1,11 @@
+#style {
+    width:100vw;
+    height:80px;
+    background-color: #dd8b26;
+  }
+#style img {
+  padding-top:10px;
+  padding-left: 10px;
+  height: 70px;
+  width:200px;
+}

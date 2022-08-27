@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Movie from "../components/Movie";
 import styles from "./Home.module.css";
+import Header from "../components/header";
+
 
 function Home() {
     const [loading, setLoading] = useState(true);
@@ -16,7 +18,6 @@ function Home() {
   useEffect(() => {
     getMovies();
   }, []);
-  console.log(movies);
   return (
     <div className={styles.container}>
       {loading ? (
@@ -39,5 +40,4 @@ function Home() {
     </div>
   );
 }
-
 export default Home;
