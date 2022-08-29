@@ -1,11 +1,11 @@
 import styles from './header.css';
 import potato from '../images/ptato2.png';
+import { Link } from "react-router-dom";
 
 function Header() {
-    console.log("gay");
     return (
         <header id="style">
-            <img src={potato} alt="potato" />
+            <Link to={`/`}><img src={potato} alt="potato" /></Link>
         </header>
     )
 }

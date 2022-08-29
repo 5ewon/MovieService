@@ -8,6 +8,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/movie/:id">
+          <Header />
           <Detail />
         </Route>
         <Route path="/">
